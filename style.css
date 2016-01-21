@@ -1,0 +1,95 @@
+body {
+	background-color: #002b80;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.container {
+	background-color: #002b80;
+	margin-top: 25px;
+}
+
+.jumbotron {
+	background-color: #002b80;
+}
+
+.input_field {
+	border-radius: 7px;
+	height: 35px;
+	font-size: 16pt;
+	color: #002b80;
+	margin: 0 auto;
+	width: 50rem;
+}
+
+h1 {
+	margin-top: 110px;
+	font-size: 32pt;
+	cursor: pointer;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #9966ff;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+#border_size_before {
+	margin-top: 15px;
+}
+
+#border_size {
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  width: 50rem;
+  margin: 0 auto;
+  font-size: 16pt;
+  color: #002b80;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#border_size > a {
+	display: block;
+}
+
+.size {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 20rem;
+}
+
+#spacer {
+	margin-bottom: 75px;
+}
+
+@media (max-width: 600px) {
+    .input_field {
+    	width: 35rem;
+    }
+
+    #border_size {
+    	width: 35rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .input_field {
+    	width: 32rem;
+    }
+
+    #border_size {
+    	width: 32rem;
+    }
+}
